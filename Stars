@@ -1,17 +1,17 @@
 	public static void main(String args[])
 {
 		
-		  int height = 6;
-		  int width = 6;
-	  	for(int x = 1 ; x<=height ; x++)
-	    	{
-			  for(int y = 1 ; y<=width ; y++)
-		   	  {
-			    if(x==1||x==6||y==1||y==6)
-			    System.out.print("*");
-			    else
-			    System.out.print(" ");
-			    }
+  int height = 6;
+	int width = 6;
+	for(int x = 1 ; x<=height ; x++)
+	 	{
+	  for(int y = 1 ; y<=width ; y++)
+	    {
+	    if(x==1||x==6||y==1||y==6)
+		  System.out.print("*");
+			else
+	    System.out.print(" ");
+			 }
 			System.out.println("");
-		    }
+		}
 }
